@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my calculator</title>
-    <link rel="stylesheet" href="Untitled-2" />
+    <link rel="stylesheet" href="calculator.css" />
   </head>
   <body>
+    <header class="navbare">Ayman ALLOUCH</header>
+    <div class="welcome">HELLO World!</div>
+    <p class="paragraph">
+      this is my first project done by me <span>Ayman ALLOUCH</span> using
+      <b>HTML</b> , <b>CSS</b> and
+      <b> JavaScript</b>
+    </p>
     <div class="calculator">
       <div class="calculator-display">0</div>
       <div class="calculator-keys">
+        <button class="key--add" data-action="add">+</button>
+        <button class="key--substract" data-action="substract">-</button>
+        <button class="key--multiply" data-action="multiply">&times;</button>
+        <button class="key--divide" data-action="divide">÷</button>
         <button class="key1">1</button>
         <button class="key2">2</button>
         <button class="key3">3</button>
@@ -20,6 +31,9 @@
         <button class="key8">8</button>
         <button class="key9">9</button>
         <button class="key0">0</button>
+        <button class="decimal" data-action="decimal">.</button>
+        <button class="clear" data-action="clear">AC</button>
+        <button class="key--equal" data-action="calculate">=</button>
       </div>
     </div>
   </body>
