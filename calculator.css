@@ -134,4 +134,5 @@ body {
   margin: 0;
   background-color: #191919;
   background: linear-gradient(10000deg, #191919, #2b2a2a);
+  scroll-behavior: smooth;
 }
