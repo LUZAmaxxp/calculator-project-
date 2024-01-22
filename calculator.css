@@ -63,31 +63,31 @@
 }
 .clear {
   height: 30px;
-  background-color: orange;
+  background-color: #b9a581;
   border-width: 0.01px;
 }
 .key--equal {
   height: 30px;
-  background-color: orange;
+  background-color: #b9a581;
   border-width: 0.01px;
 }
 .key--add {
-  background-color: orange;
+  background-color: #b9a581;
   height: 30px;
   border-width: 0.01px;
 }
 .key--substract {
-  background-color: orange;
+  background-color: #b9a581;
   height: 30px;
   border-width: 0.01px;
 }
 .key--multiply {
-  background-color: orange;
+  background-color: #b9a581;
   height: 30px;
   border-width: 0.01px;
 }
 .key--divide {
-  background-color: orange;
+  background-color: #b9a581;
   height: 30px;
   border-width: 0.01px;
 }
